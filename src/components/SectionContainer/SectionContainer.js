@@ -7,7 +7,7 @@ function SectionContainer({ fullHeight, ...props }) {
       ref={props.ref}
       sx={{
         px: { xs: 4, sm: 5, md: 10, lg: 10, ...props.sx },
-        maxWidth: '1300px',
+        maxWidth: '1380px',
         minHeight: fullHeight ? '100vh' : 'auto',
         mx: 'auto',
         ...props.sx,
