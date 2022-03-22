@@ -9,7 +9,11 @@ function App() {
     <Router>
       <Routes>
         {/* <Route path='/' default element={<Home />} /> */}
-        <Route path='/demander-un-devis' element={<AskQuoteFormPage />} />
+        <Route
+          path='/demander-un-devis'
+          default
+          element={<AskQuoteFormPage />}
+        />
       </Routes>
     </Router>
   );
